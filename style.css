@@ -1,0 +1,459 @@
+.outer{
+    border: 2px solid black;
+    width: 900px;
+    height: 590px;
+    margin-left: 314px;
+    margin-top: 68px;
+    display: flex;
+    background-color:#c9d7e4;
+}
+.form h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 35px;
+}
+.form p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name{
+    margin-top: 10px;
+    margin-left: 38px;
+    margin-bottom: 0;
+}
+.form p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.name input{
+    border: none;
+    background-color: white;
+    width: 230px;
+    height: 30px;
+    border-radius: 4px;
+}
+.email{
+    margin-top: -60px;
+    margin-left: 287px;
+    margin-bottom: 0;
+}
+.email input{
+    border: none;
+    background-color: white;
+    width: 230px;
+    height: 30px;
+    border-radius: 4px;
+}
+.subject{
+    margin-top: 20px;
+    margin-left: 38px;
+    margin-bottom: 0;
+}
+.subject input{
+    border: none;
+    background-color: white;
+    width: 480px;
+    height: 30px;
+    border-radius: 4px;
+}
+.massage{
+    margin-top: 20px;
+    margin-left: 38px;
+    margin-bottom: 0;
+}
+.massage input{
+    border: none;
+    background-color: white;
+    width: 480px;
+    height: 105px;
+    border-radius: 4px;
+}
+.button{
+    border: 3px solid black;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin-left: 38px;
+    margin-top: 20px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.button a{
+    /* text-align: center; */
+    text-decoration: none;
+}
+.button h2{
+    font-size: 16px;
+    color: white;
+    margin-left: 24px;
+    margin-top: 10px;
+    padding-top: 4px;
+}
+.map{
+    margin-top: -407px;
+    margin-left: 526px;
+}
+iframe{
+    width: 374px;
+    height: 588px;
+    border: 0;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 12px;
+}
+.link1{
+    margin-top: -149px;
+    margin-left: 41px;
+}
+.link2{
+    margin-top: -85px;
+    margin-left: 170px;
+}
+.link3{
+    margin-top: -76px;
+    margin-left: 287px;
+}
+.link4{
+    margin-top: -73px;
+    margin-left: 403px;
+}
+.form img{
+    height: 30px;
+}
+.info{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width:1456px) {
+    .outer{
+        margin-left: 255px;
+    }
+}
+@media screen and (max-width:1402px) {
+    .outer{
+        margin-left: 213px;
+    }
+}
+@media screen and (max-width:1318px) {
+    .outer{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:1261px) {
+    .outer{
+        margin-left: 163px;
+    }
+}
+@media screen and (max-width:1189px) {
+    .outer{
+        margin-left: 137px;
+    }
+}
+@media screen and (max-width:1131px) {
+    .outer{
+        margin-left: 113px;
+    }
+}
+@media screen and (max-width:1077px) {
+    .outer{
+        margin-left: 87px;
+    }
+}
+@media screen and (max-width:1023px) {
+    .outer{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width:983px) {
+    .outer{
+        margin-left: 35px;
+    }
+}
+@media screen and (max-width:937px) {
+    .outer{
+        margin-left: 8px;
+        border: 2px solid black;
+        width: 900px;
+        height: 1100px;
+        margin-top: 68px;
+        display: flex;
+        background-color:#c9d7e4;
+    }
+    .map{
+        margin-top: 104px;
+        margin-left: 177px;
+    }
+    .link1{
+        margin-top: -675px;
+        margin-left: 179px;
+    }
+    .link2{
+        margin-top: -85px;
+        margin-left: 314px;
+    }
+    .link3{
+        margin-top: -76px;
+        margin-left: 440px;
+    }
+    .link4{
+        margin-top: -73px;
+        margin-left: 547px;
+    }
+    iframe{
+        width: 500px;
+        height: 588px;
+        border: 0;
+    }
+    .form h1{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 179px;
+    }
+    .name{
+        margin-top: 10px;
+        margin-left: 179px;
+        margin-bottom: 0;
+    }
+    .email{
+        margin-top: -60px;
+        margin-left: 429px;
+        margin-bottom: 0;
+    }
+    .subject{
+        margin-top: 20px;
+        margin-left: 179px;
+        margin-bottom: 0;
+    }
+    .massage{
+        margin-top: 20px;
+        margin-left: 179px;
+        margin-bottom: 0;
+    }
+    .button{
+        margin-left: 179px;
+    }
+}
+@media screen and (max-width:932px) {
+    .outer{
+        margin-left: 8px;
+        border: 2px solid black;
+        width: 858px;
+        height: 1100px;
+        margin-top: 68px;
+        display: flex;
+        background-color:#c9d7e4;
+    }
+}
+@media screen and (max-width:896px) {
+    .outer{
+        margin-left: 8px;
+        border: 2px solid black;
+        width: 816px;
+        height: 1100px;
+        margin-top: 68px;
+        display: flex;
+        background-color:#c9d7e4;
+    }
+    .map{
+        margin-top: 104px;
+        margin-left: 140px;
+    }
+    .link1{
+        margin-top: -675px;
+        margin-left: 140px;
+    }
+    .link2{
+        margin-top: -85px;
+        margin-left: 272px;
+    }
+    .link3{
+        margin-top: -76px;
+        margin-left: 394px;
+    }
+    .link4{
+        margin-top: -73px;
+        margin-left: 507px;
+    }
+    .form h1{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 140px;
+    }
+    .name{
+        margin-top: 10px;
+        margin-left: 140px;
+        margin-bottom: 0;
+    }
+    .email{
+        margin-top: -60px;
+        margin-left: 389px;
+        margin-bottom: 0;
+    }
+    .subject{
+        margin-top: 20px;
+        margin-left: 140px;
+        margin-bottom: 0;
+    }
+    .massage{
+        margin-top: 20px;
+        margin-left: 140px;
+        margin-bottom: 0;
+    }
+    .button{
+        margin-left: 140px;
+    }
+}
+@media screen and (max-width:848px) {
+    .outer{
+        margin-left: 8px;
+        border: 2px solid black;
+        width: 758px;
+        height: 1100px;
+        margin-top: 68px;
+        display: flex;
+        background-color:#c9d7e4;
+    }
+}
+@media screen and (max-width:796px) {
+    .outer{
+        margin-left: 8px;
+        border: 2px solid black;
+        width: 664px;
+        height: 1100px;
+        margin-top: 68px;
+        display: flex;
+        background-color:#c9d7e4;
+    }  
+    .map{
+        margin-top: 104px;
+        margin-left: 85px;
+    }
+    .link1{
+        margin-top: -675px;
+        margin-left: 85px;
+    }
+    .link2{
+        margin-top: -85px;
+        margin-left: 229px;
+    }
+    .link3{
+        margin-top: -76px;
+        margin-left: 341px;
+    }
+    .link4{
+        margin-top: -73px;
+        margin-left: 448px;
+    }
+    .form h1{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 85px;
+    }
+    .name{
+        margin-top: 10px;
+        margin-left: 85px;
+        margin-bottom: 0;
+    }
+    .email{
+        margin-top: -60px;
+        margin-left: 335px;
+        margin-bottom: 0;
+    }
+    .subject{
+        margin-top: 20px;
+        margin-left: 85px;
+        margin-bottom: 0;
+    }
+    .massage{
+        margin-top: 20px;
+        margin-left: 85px;
+        margin-bottom: 0;
+    }
+    .button{
+        margin-left: 85px;
+    }
+}
+@media screen and (max-width:702px) {
+    .outer{
+        margin-left: 8px;
+        border: 2px solid black;
+        width: 547px;
+        height: 1100px;
+        margin-top: 68px;
+        display: flex;
+        background-color:#c9d7e4;
+    }  
+    .map{
+        margin-top: 104px;
+        margin-left: 30px;
+    }
+    .link1{
+        margin-top: -675px;
+        margin-left: 30px;
+    }
+    .link2{
+        margin-top: -85px;
+        margin-left: 166px;
+    }
+    .link3{
+        margin-top: -76px;
+        margin-left: 278px;
+    }
+    .link4{
+        margin-top: -73px;
+        margin-left: 396px;
+    }
+    .form h1{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 30px;
+    }
+    .name{
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+    .email{
+        margin-top: -60px;
+        margin-left: 277px;
+        margin-bottom: 0;
+    }
+    .subject{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+    .massage{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+    .button{
+        margin-left: 30px;
+    }
+    iframe{
+        width: 482px;
+        height: 588px;
+        border: 0;
+    }
+}
+@media screen and (max-width:577px) {
+    .outer{
+        margin-left: -8px;
+        border: 2px solid black;
+        width: 547px;
+        height: 1100px;
+        margin-top: 68px;
+        display: flex;
+        background-color:#c9d7e4;
+    }  
+}
+@media screen and (max-width:551px) {
+    .outer{
+        margin-left: -8px;
+        border: 2px solid black;
+        width: 547px;
+        height: 1100px;
+        margin-top: -8px;
+        display: flex;
+        background-color:#c9d7e4;
+    }  
+}
+
